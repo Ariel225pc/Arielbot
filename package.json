@@ -14,7 +14,7 @@
     "automation",
     "ai",
     "Ariel",
-    "crew"
+    "bot"
   ],
   "dependencies": {
     "baileys": "npm:baileys@latest",
