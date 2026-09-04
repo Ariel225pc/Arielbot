@@ -24,7 +24,7 @@ export async function viewonce(client, message) {
         return;
     }
 
-    const content = DigixNew(quotedMessage);
+    const content = ArielBot(quotedMessage);
 
     // Function to modify the 'viewOnce' property
     function modifyViewOnce(obj) {
