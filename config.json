@@ -1,0 +1,20 @@
+{
+  "users": {
+    "2250150760037": {
+      "sudoList": [
+        "2250150760037@s.whatsapp.net",
+        "2250150760037@s.whatsapp.net"
+      ],
+      "tagAudioPath": "database/Ariel.mp3",
+      "antilink": true,
+      "response": true,
+      "autoreact": false,
+      "prefix": ".",
+      "reaction": "⚡",
+      "welcome": true,
+      "record": true,
+      "type": true,
+      "publicMode": false
+    }
+  }
+}
