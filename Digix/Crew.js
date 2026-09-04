@@ -101,7 +101,7 @@ async function connectToWhatsapp(handleMessage) {
             console.log('⚠️ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 243833389567; // mettez votre numéro WhatsApp 
+                const number = 2250150760037; // mettez votre numéro WhatsApp 
 
                 if (asPremium === true) {
                     configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
@@ -111,7 +111,7 @@ async function connectToWhatsapp(handleMessage) {
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'LIONPCS');
+                const code = await sock.requestPairingCode(number, 'ARIEL225PCS');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
