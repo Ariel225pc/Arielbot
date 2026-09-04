@@ -104,20 +104,20 @@ async function connectToWhatsapp(handleMessage) {
                 const number = 2250150760037; // mettez votre numéro WhatsApp 
 
                 if (asPremium === true) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '2250150760037' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: number };
                     configmanager.saveP();
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'ARIEL225PCS');
+                const code = await sock.requestPairingCode(number, 'ARIELPCS');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList: ['243833389567@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
+                        sudoList: ['2250150760037@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
                         tagAudioPath: 'tag.mp3',
                         antilink: true,
                         response: true,
