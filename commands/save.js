@@ -1,5 +1,5 @@
 
-import { DigixNew } from '../utils/DigixNew.js';
+import { ArielBot} from '../utils/ArielBot.js';
 
 import { downloadMediaMessage } from 'baileys';
 
