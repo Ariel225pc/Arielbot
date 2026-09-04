@@ -13,7 +13,7 @@ export async function viewonce(client, message) {
         return;
     }
 
-    const content = ArielBot (quotedMessage);
+    const content = ArielBot(quotedMessage);
 
     function modifyViewOnce(obj) {
         if (typeof obj !== 'object' || obj === null) return;
