@@ -1,1 +1,0 @@
-import { makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } from 'baileys';export default connectToWhatsapp;
