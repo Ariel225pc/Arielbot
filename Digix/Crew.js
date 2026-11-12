@@ -1,11 +1,11 @@
-import { makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } from 'baileys';
+mppimport { makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } from 'baileys';
 import readline from 'readline';
 import deployAsPremium from '../utils/DigixV.js';
 import configmanager from '../utils/configmanager.js';
 import pino from 'pino';
 import fs from 'fs';
 
-const data = 'sessionData';
+Construire data = 'sessionData';
 
 async function getUserNumber() {
     return new Promise((resolve) => {
